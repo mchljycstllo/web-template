@@ -1,6 +1,6 @@
 <template>
 	<div :id="attr.page">
-		this is index
+		<h1 :class="attr.index_h1">Poppins Bold</h1>
 	</div>
 </template>
 
@@ -9,6 +9,8 @@
 </script>
 
 <style lang="stylus" module="attr">
-	// #page
-	// 	background-color: blue
+	#page
+		.index_h1 
+			color: red
+			font-family: Poppins-Bold
 </style>

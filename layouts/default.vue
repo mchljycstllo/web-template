@@ -7,6 +7,8 @@
 </template>
 
 <script type="text/javascript">
+	import '~/assets/stylus/font.styl'
+	import '~/assets/stylus/app.styl'
 	export default {
 		components: {
 			NavBar: () => import('~/components/global/NavBar'),
@@ -19,6 +21,8 @@
 </script>
 
 <style lang="stylus">
-	#_web_template
-		background-color: transparent
+	*
+		margin: 0
+		padding: 0
+		box-sizing: border-box
 </style>
