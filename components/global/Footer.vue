@@ -1,6 +1,6 @@
 <template>
 	<div :id="attr.footer">
-		this is footer
+		
 	</div>
 </template>
 

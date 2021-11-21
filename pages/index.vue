@@ -11,6 +11,6 @@
 <style lang="stylus" module="attr">
 	#page
 		.index_h1 
-			color: red
+			color: var(--primary)
 			font-family: Poppins-Bold
 </style>

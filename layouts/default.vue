@@ -21,6 +21,12 @@
 </script>
 
 <style lang="stylus">
+	:root
+		--black: #000000
+		--white: #FFF
+		--red: #961A1D
+		--primary: #6A091B
+		--secondary: #360B13
 	*
 		margin: 0
 		padding: 0

@@ -1,6 +1,6 @@
 <template>
 	<div :id="attr.navbar">
-		this is navbar
+		
 	</div>
 </template>
 
