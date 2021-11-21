@@ -1,16 +1,21 @@
 <template>
 	<div :id="attr.page">
-		<h1 :class="attr.index_h1">Poppins Bold</h1>
+		<button-template
+			:button_label="'Test button'"
+			:classes="['hover', 'border_radius']"
+		 />
 	</div>
 </template>
 
 <script type="text/javascript">
-	
+	export default {
+		components: {
+			ButtonTemplate: () => import ('~/components/templates/ButtonTemplate')
+		}
+	}
 </script>
 
 <style lang="stylus" module="attr">
 	#page
-		.index_h1 
-			color: var(--primary)
-			font-family: Poppins-Bold
+		background-color: transparent
 </style>
