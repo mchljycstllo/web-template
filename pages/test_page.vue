@@ -1,6 +1,6 @@
 <template>
 	<div :id="attr.page">
-		this is index
+		This is test page
 	</div>
 </template>
 

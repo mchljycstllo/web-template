@@ -1,6 +1,6 @@
 <template>
-	<div :id="attr.page">
-		this is index
+	<div :id="attr.navbar">
+		this is navbar
 	</div>
 </template>
 
@@ -9,6 +9,6 @@
 </script>
 
 <style lang="stylus" module="attr">
-	// #page
-	// 	background-color: blue
+	#navbar
+		background-color: transparent
 </style>

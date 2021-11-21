@@ -1,6 +1,6 @@
 <template>
-	<div :id="attr.page">
-		this is index
+	<div :id="attr.footer">
+		this is footer
 	</div>
 </template>
 
@@ -9,6 +9,6 @@
 </script>
 
 <style lang="stylus" module="attr">
-	// #page
-	// 	background-color: blue
+	#footer
+		background-color: transparent
 </style>
