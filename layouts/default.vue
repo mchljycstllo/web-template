@@ -25,10 +25,13 @@
 		--black: #000000
 		--white: #FFF
 		--red: #961A1D
-		--primary: #6A091B
+		--primary: #FD9025
 		--secondary: #360B13
+		--black: #1D1D1B
 	*
 		margin: 0
 		padding: 0
 		box-sizing: border-box
+	a 
+		text-decoration: none
 </style>
